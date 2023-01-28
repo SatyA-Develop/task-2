@@ -1,0 +1,23 @@
+.comments-main{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+}
+.comments-main>h1{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media screen and (max-width: 390px) {
+    .comments-main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .comments-main>h1{
+        font-size: 2rem;
+    }
+}
